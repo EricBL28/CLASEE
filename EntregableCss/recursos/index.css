@@ -5,23 +5,65 @@
 
 /* Ejercicio 1 */
 
+body{
+    background-image: url(fondo-web.jpg);
+}
 
-
+header,main{
+    background-color: #ffffff;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
 
 
 /* Ejercicio 2 */
+header{
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+}
 
-
-
+h1{
+    font-family: fantasy;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+    text-shadow: 3px 5px  #ff0000;
+}
+h2,h3{
+    font-family: fantasy;
+}
 
 /* Ejercicio 3 */
 
-
-
-
-
+a{
+    text-decoration: none;
+    color: #000;
+}
+   
+a:last-child{
+    color:#004b69
+    
+}
+a:hover{
+    color:#004b69 ;
+    font-size: 19px;
+    animation-duration: 3s;
+}
 
 /* Ejercicio 4 */
+
+img{
+    width: 200px;
+    float: left;
+    margin-right: 5px;
+}
+
+h3::before{
+    color: #004b69;
+
+}
 
 
 
