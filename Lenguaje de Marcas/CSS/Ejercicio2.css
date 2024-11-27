@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Kablammo&display=swap');
+
+@font-face {
+    font-family: 'COSA';
+    src: url('as/Kablammo-Regular-VariableFont_MORF.ttf') format('woff2');
+}
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3b3dd;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para todos los encabezados usando la fuente descargada */
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'COSA', sans-serif;
+}
+
+/* Estilo específico para H1 */
+h1 {
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+/* Estilo para el párrafo con fuente enlazada desde Google Fonts */
+.p1 {
+    font-family: Danfo;
+}
+
+/* Estilo general para enlaces */
+a {
+    text-transform: uppercase;
+    
+    text-decoration: none;
+   
+    color: #007BFF;
+    
+}
+
+
+a[target="_blank"] {
+    color: red;
+}
