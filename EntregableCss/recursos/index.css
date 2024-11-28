@@ -14,7 +14,7 @@ header,main{
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 15px;
 }
 
 
@@ -40,6 +40,7 @@ h2,h3{
 a{
     text-decoration: none;
     color: #000;
+    transition-duration: 3s;
 }
    
 a:last-child{
@@ -49,7 +50,8 @@ a:last-child{
 a:hover{
     color:#004b69 ;
     font-size: 19px;
-    animation-duration: 3s;
+    padding: 5px;
+    
 }
 
 /* Ejercicio 4 */
@@ -58,26 +60,64 @@ img{
     width: 200px;
     float: left;
     margin-right: 5px;
+    animation: gris 3s infinite;
 }
 
-h3::before{
-    color: #004b69;
+h3 +p::first-letter{
+    color: #ff00aa;
 
 }
-
-
+@keyframes gris {
+    0%{
+        filter:grayscale(0%)
+    }
+    50%{
+        filter: grayscale(100%);
+    }
+    100%{
+        filter:grayscale(0%)
+    }
+}
 
 /* Ejercicio 5 */
-
+span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 
 /* Ejercicio 6 */
 
+input:required{
+    background-color: #f58787;
+}
 
 
 
 /* Ejercicio 7 */
+article{
+    display: inline-flex;
+}
+.ficha{
+    align-items: stretch;
+    flex-basis: 200px;
+    border: 1px solid #000;
+    margin: 10px;
 
+}
+.p2{
+    background-color: #f3b5b5;
+}
+.ficha{
+    box-shadow: 1px 1px 15px #000;
+}
+.ficha:first-child{
+    align-items: center;
+    background: linear-gradient(#d4d4f5, rgb(255, 165, 180));
+}
+.ficha:nth-child(2) .p3{
+    background-color: #000;
+}
 
 
 
