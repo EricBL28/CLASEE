@@ -6,11 +6,11 @@
 /* Ejercicio 1 */
 
 body{
-    background-image: url(fondo-web.jpg);
+    background-image: url(fondo-web.jpg);/*Fondo*/
 }
 
 header,main{
-    background-color: #ffffff;
+    background-color: #ffffff;/*Fondo blanco */
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -20,36 +20,36 @@ header,main{
 
 /* Ejercicio 2 */
 header{
-    border-radius: 10px;
-    text-align: center;
-    margin-bottom: 5px;
+    border-radius: 10px; /* Bordes redondeados para el header */
+    text-align: center; /* Centra el texto dentro del header */
+    margin-bottom: 5px; /* Añade separación inferior */
 }
 
 h1{
-    font-family: fantasy;
-    letter-spacing: 2px;
-    word-spacing: 15px;
-    text-shadow: 3px 5px  #ff0000;
+    font-family: fantasy;/* Añade la fuente fantasy a los h1 */
+    letter-spacing: 2px;/*Espacio entre letras*/
+    word-spacing: 15px;/*Espacio entre palabras*/
+    text-shadow: 3px 5px  #ff0000;/*sombras del texto*/
 }
 h2,h3{
-    font-family: fantasy;
+    font-family: fantasy;/*como h1 tiene mas especificaciones que h2 y h3 , esta parte lo hago separado*/
 }
 
 /* Ejercicio 3 */
 
 a{
-    text-decoration: none;
+    text-decoration: none;/* Quita el subrayado de los enlaces */
     color: #000;
-    transition-duration: 3s;
+    transition-duration: 3s;/* Transición lenta como se especifica */
 }
    
 a:last-child{
-    color:#004b69
+    color:#004b69/* El último enlace tiene un color diferente */
     
 }
 a:hover{
     color:#004b69 ;
-    font-size: 19px;
+    font-size: 19px;/* Aumenta ligeramente el tamaño del texto */
     padding: 5px;
     
 }
@@ -59,62 +59,72 @@ a:hover{
 img{
     width: 200px;
     float: left;
-    margin-right: 5px;
-    animation: gris 3s infinite;
+    margin-right: 5px;/* Añade un margen derecho */
+    animation: gris 3s infinite;/* animación en escala de grises de forma infinita*/
     
 }
 
 h3 +p::first-letter{
-    color: #ff00aa;
+    color: #ff00aa;/* Cambia el color del primer carácter de los párrafos que siguen a h3 */
 
 }
 @keyframes gris {
     0%{
-        filter:grayscale(0%)
+        filter:grayscale(0%)/* Imagen a todo color */
     }
     50%{
-        filter: grayscale(100%);
+        filter: grayscale(100%);/* Imagen en blanco y negro */
     }
     100%{
-        filter:grayscale(0%)
+        filter:grayscale(0%)/* Imagen a todo color otra vez para que las transiciones sean mas limpias */
     }
 }
 
 /* Ejercicio 5 */
 span{
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: uppercase;/*Texto en mayusculas*/
 }
 
 
 /* Ejercicio 6 */
 
 input:required{
-    background-color: #f58787;
+    background-color: #f58787;/* Fondo rojo claro para inputs obligatorios */
 }
 
 
 
 /* Ejercicio 7 */
-article{
-    display: inline-flex;
-
-}
-.ficha{
-    align-items: stretch;
-    width: 200px;
-    border: 1px solid #000;
-    margin: 10px;
-    box-shadow: 3px 3px 15px #4c71b4;
-
-}
-.p2{
-    text-align: center;
-    background-color: #f3b5b5;
-    box-shadow: 3px 3px 15px #4c71b4;
+article {
+    display: flex; /* Flex para alinear elementos en fila */
 
 }
 
+.ficha {
+    width: 200px; /* Ancho fijo */
+    box-shadow: 4px 4px 8px #f58787; /* Sombra más suave */
+
+    border: 1px solid #000000; /* Borde alrededor del contenedor */
+    margin: 10px; 
+}
+
+.p2 {
+    text-align: center; 
+    box-shadow: 4px 4px 8px #f58787; /* Para que quede como en la foto necesita este box-shadow tambien */
+
+    background: linear-gradient(to right, #c3f2c5, #c79281); /* Fondo degradado en dos colores  de izquierda a derecha*/
+}
+
+.p3 {
+
+    text-align: justify; /* Justifica el texto */
+    padding: 10px; /* Espaciado interno */
+    border: 1px  ; /* Evitar que se quede pegado al borde */
+}
+
+
+/* Esto no es ni necesario creo, mal entendí el ejercicio pero aqui lo dejo
 .p2:first-child{
     align-items: center;
     background: linear-gradient(#d4d4f5, rgb(255, 165, 180));
@@ -124,6 +134,7 @@ article{
     margin: 0px;
     padding: 5px;    
 }
+
 
 
 
