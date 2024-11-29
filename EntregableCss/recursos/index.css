@@ -98,26 +98,31 @@ input:required{
 /* Ejercicio 7 */
 article{
     display: inline-flex;
+
 }
 .ficha{
     align-items: stretch;
-    flex-basis: 200px;
+    width: 200px;
     border: 1px solid #000;
     margin: 10px;
+    box-shadow: 3px 3px 15px #4c71b4;
 
 }
 .p2{
+    text-align: center;
     background-color: #f3b5b5;
+    box-shadow: 3px 3px 15px #4c71b4;
+
 }
-.ficha{
-    box-shadow: 1px 1px 15px #000;
-}
-.ficha:first-child{
+
+.p2:first-child{
     align-items: center;
     background: linear-gradient(#d4d4f5, rgb(255, 165, 180));
 }
 .ficha:nth-child(2) .p3{
-    background-color: #000;
+    text-align: justify;
+    margin: 0px;
+    padding: 5px;    
 }
 
 
@@ -146,10 +151,17 @@ article{
 }
 @media only screen and (max-width:800px) {
 
-    .article{
+    article{
+        
         flex-wrap: wrap;
+        justify-content: center;
         align-items: stretch;
 
+    }
+    .ficha{
+        margin:10px;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
