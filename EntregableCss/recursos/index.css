@@ -61,6 +61,7 @@ img{
     float: left;
     margin-right: 5px;
     animation: gris 3s infinite;
+    
 }
 
 h3 +p::first-letter{
@@ -123,6 +124,32 @@ article{
 
 /* Ejercicio 8 */
 
+#call{
+    position: fixed;
+    bottom: 48%;
+    left: 0px;
+}
+#email{
+    position: fixed;
+    bottom: 52%;
+    left: 0px;
+}
+
+
 
 
 /* Ejercicio 9 */
+@media only screen and (max-width:1000px) {
+    .material-symbols-outlined{
+        opacity: 0%;
+    }
+}
+@media only screen and (max-width:800px) {
+
+    .article{
+        flex-wrap: wrap;
+        align-items: stretch;
+
+    }
+}
+

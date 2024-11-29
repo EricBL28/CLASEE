@@ -1,150 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index.css" type="text/css">
-        <title>Práctica CSS</title>
-    </head>
-    <body>
-        <header>
-            <h1>Museo del Videojuego</h1>
-            <nav>
-                <a href="#seccion2" title="Top Videojuegos">Top Videojuegos</a>
-                <a href="#seccion3" title="Comprar entradas">Comprar entradas</a>
-                <a href="#seccion4" title="Información del museo">Información del museo</a>
-                <a href="https://museoarcadevintage.com/" title="mas info" target="_blank">Más Info</a>
-            </nav>
-        </header>
-        <main>
-            <section id="seccion1">
-                <h2>Museo del Videojuego</h2>
-                <h3>Misión</h3>
-                <p>Arcade Vintage es una Asociación Cultural creada para conservar y dar a conocer la cultura relacionada con el mundo de los recreativos y las máquinas arcade de los años 70, 80 y 90 y, en general, del videojuego clásico y su historia.</p>
-                <img src="sinclair.jpg" alt="sinclair"/>
-                <p>El Museo del Videojuego Arcade Vintage es la evolución natural de su proyecto y encuentra en la ciudad de Ibi la sinergia perfecta con una de sus propuestas más ambiciosas: el Museo Valenciano del Juguete, que recibe anualmente más de 22.000 visitas.</p>
-                
-                <p>Esto unido a un emplazamiento ideal, cedido por el Ayuntamiento de Ibi, como es la antigua Fábrica de Juguetes Rico, permite a Arcade Vintage dar un importantísimo paso adelante en la preservación y divulgación de los videojuegos como parte integral de la cultura contemporánea.</p>
-                <p>El Museo del Videojuego Arcade Vintage está pensado para todos los públicos a partir de 6 años, donde disfrutarán de un espacio colectivo donde la interacción, la creatividad y divulgación serán los principales atractivos.</p>
-                
-                <h3>Instalaciones</h3>
-                
-                <p>La fábrica Rico es la segunda empresa de juguetes fundada en Ibi.</p>
-                
-                <img src="imagen.jpg" alt="mando"/>
-                <p>La industria del juguetes supuso que Ibi se transformara en un pueblo ocupado por un gran número de empresas jugueteras, La población creció en tamaño y en habitantes, llegados desde otras regiones, para participar en el proceso ilusión ante de la fabricación de juguetes.</p>
-            </section>
 
-            <section id="seccion2">
-                <h2>Top de Videojuegos</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Práctica CSS</title>
+</head>
 
-                <ol type="I" reversed>
-                    <li><span>The Legend of Zelda: Breath of the Wild</span>
-                        <ul>
-                            <li>Fecha Lanzamiento: 20/3/2020</li>
-                            <li>Género: Simulador social</li>
-                        </ul>
-                    </li>
-                    <li><span>Mario Kart 8 Deluxe</span>
-                        <ul>
-                            <li>Fecha Lanzamiento: 28/4/2017</li>
-                            <li>Género: Carreras arcade</li>
-                        </ul>
-                    </li>
-                    <li><span>Super Smash Bros. Ultimate</span>
-                        <ul>
-                            <li>Fecha Lanzamiento: 7/12/2018</li>
-                            <li>Género: Lucha</li>
-                        </ul>
-                    </li>
-                    <li><span>Super Mario Odyssey</span>
-                        <ul>
-                            <li>Fecha Lanzamiento: 27/10/2017</li>
-                            <li>Género: Plataformas 3D</li>
-                        </ul>
-                    </li>
-                    <li><span>The Legend of Zelda: Breath of the Wild</span>
-                        <ul>
-                            <li>Fecha Lanzamiento: 3/3/2017</li>
-                            <li>Género: Aventura de acción, mundo abierto</li>
-                        </ul>
-                    </li>
-                </ol>
+<body>
+    <header>
+        <h1>Museo del Videojuego</h1>
+        <nav>
+            <a href="#seccion2" title="Top Videojuegos">Top Videojuegos</a>
+            <a href="#seccion3" title="Comprar entradas">Comprar entradas</a>
+            <a href="#seccion4" title="Información del museo">Información del museo</a>
+            <a href="https://museoarcadevintage.com/" title="mas info" target="_blank">Más Info</a>
+        </nav>
+    </header>
+    <main>
+        <section id="seccion1">
+            <h2>Museo del Videojuego</h2>
+            <h3>Misión</h3>
+            <p>Arcade Vintage es una Asociación Cultural creada para conservar y dar a conocer la cultura relacionada
+                con el mundo de los recreativos y las máquinas arcade de los años 70, 80 y 90 y, en general, del
+                videojuego clásico y su historia.</p>
+            <img src="sinclair.jpg" alt="sinclair" />
+            <p>El Museo del Videojuego Arcade Vintage es la evolución natural de su proyecto y encuentra en la ciudad de
+                Ibi la sinergia perfecta con una de sus propuestas más ambiciosas: el Museo Valenciano del Juguete, que
+                recibe anualmente más de 22.000 visitas.</p>
 
-            </section>
-            <section id="seccion3">
-                <h2>Comprar entradas</h2>
-            
-                <form action="/registrardatos.php" autocomplete="off" method="POST">
-                    <fieldset>
-                        <legend>Datos Personales</legend>
-                        <label for="nombre">Nombre*</label><br>
-                        <input type="text" name="nombre" id="login" placeholder="Nombre" required=""><br><br>
-                        <label for="phone">Teléfono</label><br>
-                        <input type="tel" id="phone" name="phone" placeholder="6XXXXXXXX"><br><br>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Entradas</legend>
-                        <label for="personas">Número de personas*</label>
-                        <input list="personas" name="personas" required="">
-                        <datalist id="personas">
-                            <option value="1">
-                            <option value="2">
-                            <option value="3">
-                            <option value="4">
-                            <option value="5">
-                            <option value="6">
-                        </datalist>
-                        <br> <br>
-                        <label for="entrada">Fecha y hora de entrada*:</label>
-                        <input type="datetime-local" id="entrada" name="entrada" required="">
-                        <label for="salida">Fecha y hora de salida*:</label>
-                        <input type="datetime-local" id="salida" name="salida" required="">
-                    </fieldset>
-                    <input value="Guardar" type="submit">
-                </form>
+            <p>Esto unido a un emplazamiento ideal, cedido por el Ayuntamiento de Ibi, como es la antigua Fábrica de
+                Juguetes Rico, permite a Arcade Vintage dar un importantísimo paso adelante en la preservación y
+                divulgación de los videojuegos como parte integral de la cultura contemporánea.</p>
+            <p>El Museo del Videojuego Arcade Vintage está pensado para todos los públicos a partir de 6 años, donde
+                disfrutarán de un espacio colectivo donde la interacción, la creatividad y divulgación serán los
+                principales atractivos.</p>
+
+            <h3>Instalaciones</h3>
+
+            <p>La fábrica Rico es la segunda empresa de juguetes fundada en Ibi.</p>
+
+            <img src="imagen.jpg" alt="mando" />
+            <p>La industria del juguetes supuso que Ibi se transformara en un pueblo ocupado por un gran número de
+                empresas jugueteras, La población creció en tamaño y en habitantes, llegados desde otras regiones, para
+                participar en el proceso ilusión ante de la fabricación de juguetes.</p>
+        </section>
+
+        <section id="seccion2">
+            <h2>Top de Videojuegos</h2>
+
+            <ol type="I" reversed>
+                <li><span>The Legend of Zelda: Breath of the Wild</span>
+                    <ul>
+                        <li>Fecha Lanzamiento: 20/3/2020</li>
+                        <li>Género: Simulador social</li>
+                    </ul>
+                </li>
+                <li><span>Mario Kart 8 Deluxe</span>
+                    <ul>
+                        <li>Fecha Lanzamiento: 28/4/2017</li>
+                        <li>Género: Carreras arcade</li>
+                    </ul>
+                </li>
+                <li><span>Super Smash Bros. Ultimate</span>
+                    <ul>
+                        <li>Fecha Lanzamiento: 7/12/2018</li>
+                        <li>Género: Lucha</li>
+                    </ul>
+                </li>
+                <li><span>Super Mario Odyssey</span>
+                    <ul>
+                        <li>Fecha Lanzamiento: 27/10/2017</li>
+                        <li>Género: Plataformas 3D</li>
+                    </ul>
+                </li>
+                <li><span>The Legend of Zelda: Breath of the Wild</span>
+                    <ul>
+                        <li>Fecha Lanzamiento: 3/3/2017</li>
+                        <li>Género: Aventura de acción, mundo abierto</li>
+                    </ul>
+                </li>
+            </ol>
+
+        </section>
+        <section id="seccion3">
+            <h2>Comprar entradas</h2>
+
+            <form action="/registrardatos.php" autocomplete="off" method="POST">
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <label for="nombre">Nombre*</label><br>
+                    <input type="text" name="nombre" id="login" placeholder="Nombre" required=""><br><br>
+                    <label for="phone">Teléfono</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="6XXXXXXXX"><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Entradas</legend>
+                    <label for="personas">Número de personas*</label>
+                    <input list="personas" name="personas" required="">
+                    <datalist id="personas">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                    </datalist>
+                    <br> <br>
+                    <label for="entrada">Fecha y hora de entrada*:</label>
+                    <input type="datetime-local" id="entrada" name="entrada" required="">
+                    <label for="salida">Fecha y hora de salida*:</label>
+                    <input type="datetime-local" id="salida" name="salida" required="">
+                </fieldset>
+                <input value="Guardar" type="submit">
+            </form>
+
+        </section>
+        <section id="seccion4">
+            <h2>Información del museo</h2>
+            <article class="a31">
+                <div class="ficha">
+                    <div class="p2">Lorem 1</div>
+                    <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel hendrerit
+                        risus, ac vulputate est. Aliquam nec porttitor quam. Vestibulum malesuada, lectus in
+                        eleifend viverra, nunc dui luctus risus, a tempor orci justo ut risus. </p>
+                </div>
+
+                <div class="ficha">
+
+                    <div class="p2">Lorem 2</div>
+                    <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="ficha">
+
+                    <div class="p2">Lorem 3</div>
+                    <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel hendrerit
+                        risus, ac vulputate est. Aliquam nec porttitor quam. Vestibulum malesuada, lectus in
+                        eleifend viverra, nunc dui luctus risus, a tempor orci justo ut risus. Vestibulum ut
+                        suscipit eros, sed dignissim erat. Praesent consectetur eu est eu ullamcorper. Aliquam at
+                        felis et felis faucibus vehicula.
+                    </p>
+                </div>
+
+                <div class="ficha">
+
+                    <div class="p2">Lorem 4</div>
+                    <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+
+
+            </article>
+        </section>
+    </main>
+    <aside>
+        <a href="mailto:info@museoarcadevintage.com"><span class="material-symbols-outlined" id="email"> mail<span></a>
+        <a href="tel:692202030"><span class="material-symbols-outlined" id="call"> call<span></a>
+    </aside>
     
-            </section>
-            <section id="seccion4">
-                <h2>Información del museo</h2>
-                <article class="a31">
-                    <div class="ficha">
-                        <div class="p2">Lorem 1</div>
-                        <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel hendrerit
-                            risus, ac vulputate est. Aliquam nec porttitor quam. Vestibulum malesuada, lectus in
-                            eleifend viverra, nunc dui luctus risus, a tempor orci justo ut risus. </p>
-                    </div>
-    
-                    <div class="ficha">
-          
-                        <div class="p2">Lorem 2</div>
-                        <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-    
-                    <div class="ficha">
-                      
-                        <div class="p2">Lorem 3</div>
-                        <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel hendrerit
-                            risus, ac vulputate est. Aliquam nec porttitor quam. Vestibulum malesuada, lectus in
-                            eleifend viverra, nunc dui luctus risus, a tempor orci justo ut risus. Vestibulum ut
-                            suscipit eros, sed dignissim erat. Praesent consectetur eu est eu ullamcorper. Aliquam at
-                            felis et felis faucibus vehicula.
-                        </p>
-                    </div>
-    
-                    <div class="ficha">
-                      
-                        <div class="p2">Lorem 4</div>
-                        <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    </div>
-    
-                    
-                </article>
-            </section>
-        </main>
-        <aside>
-            <a href="mailto:info@museoarcadevintage.com"><!-- Aquí el icono del correo --></a>
-            <a href="tel:692202030"><!-- Aquí el icono del teléfono --></a>
-        </aside>
-    </body>
+
+
+</body>
+
 </html>
