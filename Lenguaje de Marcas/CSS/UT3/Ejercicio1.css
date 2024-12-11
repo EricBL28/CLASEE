@@ -1,0 +1,15 @@
+body{
+    background-color: #90d1eb;
+}
+h1{
+    background-color: #f3b287;
+    border-radius: 25px;
+}
+img{
+    opacity: 0.4;
+    transition: opacity 0.3s;
+}
+img:hover{
+    background-color: #39f1fb;
+    opacity: 1;
+}

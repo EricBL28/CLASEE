@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Altura mínima para ocupar toda la pantalla */
+    margin: 0;
+    background-color: #f0f0f0; /* Fondo opcional para mayor contraste */
+}
+div{
+    width: 800px;
+    max-width: max-content;
+    padding: 20px;
+    background-color: rgb(204, 200, 200);
+    border-radius: 8px;
+}
+
+label, input, select{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0px;
+    border-radius: 8px;
+}
+input[type="submit"]{
+    background-color: rgba(209, 29, 200, 0.897);
+}
+input[type="submit"]:hover {
+    background-color: rgba(189, 25, 180, 0.9); /* Color más oscuro al pasar el ratón */
+}
