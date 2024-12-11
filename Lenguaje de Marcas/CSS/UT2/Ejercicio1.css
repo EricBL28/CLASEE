@@ -1,0 +1,33 @@
+
+
+
+body{
+    background-color: #000;
+}
+h1{
+    
+    text-shadow: 3px 2px #e5d3ee;
+    color: #ffffff;
+    text-decoration: overline;
+}
+
+.p1{
+    color:#39bb28;
+    
+    text-align: right;
+}
+.p1::first-line{
+    font-variant: small-caps;
+}
+
+.p2{
+    color: #FF0000;;
+    font-size: 18px; 
+    line-height: 20px; 
+    letter-spacing: 1px; 
+    word-spacing: 40px; 
+}
+.p2::first-letter {
+    font-size: 65px;
+    font-weight: bold;
+}
