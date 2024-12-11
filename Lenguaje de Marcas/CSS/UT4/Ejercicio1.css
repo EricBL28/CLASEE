@@ -1,0 +1,24 @@
+h1, nav{
+    text-align: center;
+}
+p, h2{
+    text-align: justify;
+    max-width: 600px;
+    margin: auto;
+}
+
+#first img{
+    float: right;
+}
+#second img{
+    float: left;
+}
+#botonFijo{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+#botonFijo img{
+    width: 50px;
+}
