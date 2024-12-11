@@ -1,0 +1,31 @@
+/*todos los enlaces*/
+
+body{
+    background-color: #5d6d5c;
+}
+a{
+    font-size: 16px;
+    color: #84f181;
+    text-decoration: none;
+}
+/*cuando se pone el raton encima*/
+a:hover {
+    color: #e4c1c1;
+    background-color: #8b6363;
+  }
+/*cuando esta activo el enlace*/
+a:active{
+    color: #5f4617;
+    text-decoration: none;
+}
+/*cuando se entra y sale del enalce*/
+a:visited{
+    color:rgb(131, 170, 131);
+    text-decoration: none;
+}
+
+/**/
+a:focus{
+    color:#2121a5;
+    text-decoration: underline;
+}

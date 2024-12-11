@@ -1,0 +1,14 @@
+table{
+    width: 100%;
+}
+tr:nth-child(even){/*even pilla los pares*/
+    background-color: aliceblue;
+}
+
+thead{
+    color: aliceblue;
+    background-color: green;
+}
+tr:hover{
+    background-color: beige;
+}

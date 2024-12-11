@@ -1,0 +1,15 @@
+a[target]{
+    font-size: 20px;
+}
+
+div a[target]{
+    color: red;
+}
+
+div a{
+    color: green;
+}
+strong > a{
+    color: orange;
+}
+
