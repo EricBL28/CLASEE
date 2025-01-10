@@ -1,0 +1,11 @@
+<!-- 
+a. <Ciudad>Pamplona</ciudad>   mal no, en xml se distingue las mayusculas
+b. <mes>6<mes/>    la etiqueta de cierre mal puesta  </mes>
+c. <ciudad>Pamplona</finciudad>  tiene que ser las mismas palabras 
+d. <_rojo> falta cierre
+e. <2colores>Rojo y Naranja</2colores> mal empieza con numero
+f. < Aficiones >Cine, Bailar, Nadar</ Aficiones > lleva espacios
+g. <persona><nombre>Elsa</persona></nombre> mal orden de las etiquetas
+h. <color favorito>azul</color favorito>  espacios
+i. <datos x="3" x="4" y="5"/> 
+-->
