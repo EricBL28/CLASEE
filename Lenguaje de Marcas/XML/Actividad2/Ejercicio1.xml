@@ -1,0 +1,29 @@
+
+<!-- 
+
+<?xml version=“1.0” encoding=“UTF-8” standalone=“yes”?> comillas, de ahi estaria bien
+
+
+<documento>Texto de prueba</documento> bien
+
+
+< ?xml? >
+<documento>Texto de prueba</documento>  mal por los espacion y faltaria la version , documento esta correctamente
+
+<?xml version="1.0"?>
+<DOCUMENTO/>            en duda, recomendable usar minusculas
+
+
+<?XML version=“1.0”?>    xml en mayusculas y comillas no son las correctas
+<Documento codigo=”135”>
+<nombre>Artículo</nombre>   
+<amplitud>Media</amplitud>
+</Documento>
+
+<?xml version=“1.0”?>                 comillas
+<El documento>                        hay espacios
+<nombre>Artículo</nombre>
+<amplitud>Media</amplitud>
+</El documento>
+
+-->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- 
+
+<frutas>
+    <fruta>
+        <nombre> cereza </nombre>
+    </fruta>
+    <fruta>
+        <nombre>naranja </nombre>
+    </fruta>
+</frutas>
+
+-->
+
+<!-- 
+<vehiculos>
+    <terrestres>
+        <vehiculo>bicicleta</vehiculo>
+        <vehiculo>coche</vehiculo>
+        <vehiculo>tractor</vehiculo>
+    </terrestres>
+
+    <acuaticos>
+        <vehiculo>canoa</vehiculo>
+    </acuaticos>
+
+    <aereos>
+        <vehiculo>avioneta</vehiculo>
+        <vehiculo>helicóptero</vehiculo>
+    </aereos>
+</vehiculos>
+-->
+
+<triangulos>
+    <triangulo id="1">
+        <base>7</base>
+        <altura>5</altura>
+    </triangulo>
+
+    <triangulo id="2">
+        <base>2</base>
+        <altura>6</altura>
+    </triangulo>
+
+    <triangulo id="3">
+        <base>3</base>
+        <altura>3</altura>
+    </triangulo>
+</triangulos>
